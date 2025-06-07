@@ -1,15 +1,20 @@
 {
   "name": "campaign-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "API para campanhas de conscientização sobre desastres naturais",
+  "main": "server.js", 
   "scripts": {
+    "start": "node server.js",  // Comando para iniciar o servidor
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "axios": "^0.21.1"
+  },
+  "engines": {
+    "node": "14.x" // Define a versão do Node.js a ser usada no Render
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+  "license": "ISC"
 }
