@@ -1,9 +1,9 @@
 {
   "name": "campaign-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: No test specified\" && exit 1"
   },
   "dependencies": {
